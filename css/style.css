@@ -7,6 +7,48 @@ body {
     background-image: url("../img/landscape.jpg");
 }
 
+ul, ol {
+    list-style:none;
+ }
+ 
+ .nav {
+     padding-right: 10px;
+ }
+ 
+ .nav > li {
+    float:right;
+ }
+ 
+ .nav li a {
+    background-color:rgba(216, 159, 159);
+    color:#141414;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+ }
+ 
+ .nav li a:hover {
+    background-color:#d47777;
+ }
+ 
+ .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+ }
+ 
+ .nav li:hover > ul {
+    display:block;
+ }
+ 
+ .nav li ul li {
+    position:relative;
+ }
+ 
+ .nav li ul li ul {
+    right:-140px;
+    top:0px;
+ }
 
 
 
