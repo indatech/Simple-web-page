@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/landscape.jpg");
+}
+
+
+
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    width: 100%;
+    
+    text-align: center;
+}
+.container h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 2px rgb(58, 55, 55);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container h2 {
+    /*-webkit-text-stroke: 1px white;*/
+    color: black;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+#contenido {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(248, 243, 243, 0.2);
+}
+
+.article {
+    text-align: center;
+    width: 80%;
+    padding: 30px;
+}
+
+.article p {
+    font-weight: bold;
+}
+
+
+.container button {
+    border-color: 1px solid #d47777;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px ;
+}
+
+
+.container button a{
+    -webkit-text-stroke: 1px rgb(22, 22, 22);
+    color: rgb(250, 244, 244);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.container button:hover {
+    background-color: #d47777;
+}
+
+footer {
+   background-color: black;
+   color: white;
+   padding: 10px;
+   text-align: center;
+}
